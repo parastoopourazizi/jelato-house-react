@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { Header } from './components/layout/header'
 
 
 
@@ -7,8 +8,7 @@ function App() {
 
   return (
     <>
-    <div className="bg-green-500 text-white p-8 text-center text-2xl">hello world</div>
-      
+<Header/>
     </>
   )
 }
