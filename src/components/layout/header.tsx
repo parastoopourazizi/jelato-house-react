@@ -7,7 +7,7 @@ export const Header: React.FC = ()=>{
                 کلیک کن
 
             </Button>
-            <Button variant="text">کلیک کنید</Button>
+            <Button variant="text"  onClick={()=>{}}>کلیک کنید</Button>
             <Button variant="outlined">کلیک کنید</Button>
         </header>
     )
