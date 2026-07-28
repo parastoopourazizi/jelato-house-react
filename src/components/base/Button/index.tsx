@@ -9,8 +9,8 @@ type ButtonProps = {
 } & React.ButtonHTMLAttributes<HTMLButtonElement>;
 
 const colors = {
-  primary: "ab-amber-700",
-  secondray: "bg-red-100",
+  primary: "bg-primary-500",
+  secondary: "bg-secondary-500",
 };
  
 
@@ -26,7 +26,7 @@ export const Button :React.FC<ButtonProps> = ({
       case "contained":
         return (
            <button 
-           className={clx("p-2 bg-red-100 rounded-3xl", colors[color]) }
+           className= {clx("p-2 rounded-3xl " , colors[color])}
            {...props}
            >
       {children}
